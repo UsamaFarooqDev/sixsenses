@@ -141,11 +141,11 @@ form{
     }
     .img_box img{
         height: 40vh;
-        width: 100vw;
+        width: 90vw;
         object-fit: cover;
         margin-bottom: 1em;
     }
     video{
-        width: 100vw !important;
+        width: 80vw !important;
     }
   }
