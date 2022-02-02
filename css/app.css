@@ -136,10 +136,16 @@ form{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
 }
 @media only screen and (max-width: 968px) {
+    body{
+        overflow-x: hidden;
+    }
     .img_box img{
         height: 40vh;
         width: 100vw;
         object-fit: cover;
         margin-bottom: 1em;
+    }
+    video{
+        width: 100vw !important;
     }
   }
