@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+    background: url(../images/back.png);
+    background-size: cover;
+    overflow-x: hidden;
+}
+#header{
+    padding: 0px !important;
+   background: url(../images/exterior/Six-Senses-The-Palm-Dubai-Aerial.jpg);
+   background-size: cover;
+   background-position: center;
+   min-height: 90vh;
+   max-height: 90vh !important;
+
+}
+.wrapper{
+   background: rgba(0, 0, 0, 0.714);
+    min-height: 90vh;
+    max-height: 90vh !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content img{
+    /* filter: brightness(9.5) !important; */
+    background: #6d2058b7;
+    padding: 5px;
+}
+.content h3{
+    color: white;
+}
+.buttons{
+position: fixed;
+right: 0;
+top: 40%;
+background: #487da9;
+width: 100px;
+height: 100px;
+text-align: center;
+line-height: 100px;
+border-radius: 50px;
+font-size: 19px;
+box-shadow: 0 0 10px #6d2058;
+}
+.buttons a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.heading{
+    color: #6d2058;
+    font-weight: 600;
+}
+hr{
+    color: #6d2058;
+    height: 2px !important;
+    width: 50%;
+
+}
+.img_box img{
+    height: 40vh;
+    width: 30vw;
+    object-fit: cover;
+}
+ul{
+    list-style:square;
+    color: #6d2058;
+}
+.contact{
+    background: url(../images/interior/Six\ Senses\ Residence\ The\ Palm\ -\ Royal\ Penthouse\ -\ Living2.jpg);
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+
+}
+.wrapper_contact{
+    min-height: 50vh;
+    background: #6d2058a1;
+    padding: 20px;
+}
+form{
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.466);
+    color: white;
+    border-radius: 10px;
+}
+.contact h3{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.btn-six{
+    background: #6d2058;
+    color: white;
+    text-align: center;
+}
+.btn-six:hover{
+    background: white;
+    color: #6d2058;
+}
+.fp{
+    position: fixed;
+    right: 0;
+    top: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
+}
+.ct{
+    position: fixed;
+    right: 0;
+    top: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
+}
+.v{
+    position: fixed;
+    left: 0;
+    top: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
+}
+.cu{
+    position: fixed;
+    left: 0;
+    top: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
+}
