@@ -6,9 +6,11 @@
 body{
     text-transform: capitalize;
     font-family: 'Titillium Web', sans-serif;
-    background: url(../images/back.png);
-    background-size: cover;
+    /* background: url(../images/back.png); */
+    /* background-size: cover; */
+    /* background: linear-gradient(to right , #1c1c1c , #252525); */
     overflow-x: hidden;
+    /* color: white; */
 }
 #header{
     padding: 0px !important;
@@ -17,25 +19,31 @@ body{
    background-position: center;
    min-height: 90vh;
    max-height: 90vh !important;
-
+position: relative;
 }
 .wrapper{
    background: rgba(0, 0, 0, 0.1);
     min-height: 90vh;
     max-height: 90vh !important;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    padding-left: 5vw;
+    padding-top: 1vh;
 }
-.flex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.top{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.top img , .bottom img{
+    filter: brightness(2.0);
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0 !important;
+    color: white;
 }
 .content img{
-    /* filter: brightness(9.5) !important; */
+    filter: brightness(9.5) !important;
     text-shadow: 2px 2px 2px  #000;
     background: #487da9;
    
