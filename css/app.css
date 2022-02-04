@@ -12,7 +12,7 @@ body{
 }
 #header{
     padding: 0px !important;
-   background: url(../images/header.jpg);
+   background: url(../images/exterior/Six-Senses-The-Palm-Dubai-Aerial.jpg);
    background-size: cover;
    background-position: center;
    min-height: 90vh;
@@ -35,12 +35,15 @@ body{
     justify-content: center;
 }
 .content img{
-    /* filter: brightness(9.5) !important; */
-    background: #6d2058b7;
+    filter: brightness(9.5) !important;
+    text-shadow: 2px 2px 2px  #000;
+    /* background:linear-gradient(to right , #2a587eb2 , #487da962); */
+
     padding: 5px;
 }
 .content h3{
     color: white;
+    text-shadow: 2px 2px 2px  #000;
 }
 .buttons{
 position: fixed;
@@ -60,11 +63,11 @@ box-shadow: 0 0 10px #6d2058;
     font-weight: 600;
 }
 .heading{
-    color: #6d2058;
+    color:  #487da9;
     font-weight: 600;
 }
 hr{
-    color: #6d2058;
+    color: #487da9;
     height: 2px !important;
     width: 50%;
 
@@ -76,7 +79,7 @@ hr{
 }
 ul{
     list-style:square;
-    color: #6d2058;
+    color: #487da9;
 }
 .contact{
     background: url(../images/interior/Six\ Senses\ Residence\ The\ Palm\ -\ Royal\ Penthouse\ -\ Living2.jpg);
@@ -88,7 +91,7 @@ ul{
 }
 .wrapper_contact{
     min-height: 50vh;
-    background: #6d2058a1;
+    background: linear-gradient(to right , #2a587e7c , #487da956);
     padding: 20px;
 }
 form{
@@ -103,7 +106,7 @@ form{
     text-align: center;
 }
 .btn-six{
-    background: #6d2058;
+    background: linear-gradient(to right , #2a587e , #487da9);
     color: white;
     text-align: center;
 }
